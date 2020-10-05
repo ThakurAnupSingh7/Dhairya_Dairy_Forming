@@ -1,0 +1,29 @@
+.carousel-img{
+    filter: brightness(20%);
+    opacity: 0.9;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: justify;
+}
+
+
+.carousel-caption h1{
+    font-size:72px;
+    line-height: 82px;
+    font-weight: 700;
+    text-align: justify;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.carousel-caption p{
+text-align: justify;
+}
