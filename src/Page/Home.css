@@ -1,29 +1,386 @@
-.carousel-img{
-    filter: brightness(20%);
-    opacity: 0.9;
+.carousel-img {
+  filter: brightness(30%);
+  opacity: 0.9;
 }
 
 .carousel-caption {
-    position: absolute;
-    bottom: 5%;
-    left: 5%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: justify;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: justify;
+}
+
+.carousel-caption h1 {
+  font-size: 72px;
+  line-height: 82px;
+  font-weight: 700;
+  text-align: justify;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.carousel-caption p {
+  text-align: justify;
+}
+
+/*************Welcome our dairy css************** */
+
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap");
+.bottom-line:before {
+  position: absolute;
+  height: 1px;
+  content: "";
+  width: 60px;
+  bottom: -0.9rem;
+  left: calc(50% - 3.65rem);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #231f20;
+}
+.bottom-line:after {
+  left: calc(50% + 3.2rem);
+  position: absolute;
+  height: 1px;
+  content: "";
+  width: 60px;
+  bottom: -0.9rem;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #231f20;
+}
+.back-1 {
+  background-image: url("/img/home1.jpg");
+  background-size: cover;
+  height: 400px;
+  background-position: center;
+}
+.Main-text {
+  position: relative;
+  text-align: center;
+}
+.Main-text h2 {
+  margin: 4.45rem 0 0;
+  color: rgb(0, 0, 0);
+  font-family: "Libre Baskerville", serif;
+  font-size: 3.4em;
+  line-height: 1.25em;
+  font-weight: 700;
+}
+.Main-part1 {
+  text-align: center;
+  -webkit-box-pack: center;
+  padding-top: 3rem;
+  justify-content: center;
+  font-family: "Libre Baskerville", serif;
+  font-size: 1em;
+  line-height: 1.8em;
+  font-weight: 400;
+  color: black;
+}
+.main-2 {
+  overflow: hidden;
+  margin-top: -5.35rem;
+  text-align: center;
+}
+.main-2 img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.img-cont {
+  height: 145px;
+}
+
+/* ******************* CARD CSS  ************************* */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  background-color: #f0f0f0;
+}
+body {
+  color: #999999;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 0rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+  font-feature-settings: "liga" on;
+}
+.Card-details{
+  background-color: #aeb7be1c;
+  padding: 100px 0px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.btn {
+  background-color: rgb(57, 120, 187);
+  color: #696969;
+  padding: 0.5rem;
+  color: white;
+  font-weight: 500;
+}
+.btn--block {
+  display: block;
+  width: 100%;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 10%;
+  padding: 0;
+}
+.cards__item {
+  display: flex;
+  padding: 1rem;
+  padding: 20px;
+}
+@media (min-width: 40rem) {
+  .cards__item {
+    width: 50%;
+  }
+}
+@media (min-width: 56rem) {
+  .cards__item {
+    width: 33.3333%;
+  }
+}
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.card:hover .card__image,
+.card1:hover .card__image1 {
+  -webkit-filter: contrast(100%);
+  filter: contrast(100%);
+}
+.btn-w {
+  width: 200px;
+}
+.card__content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 1rem;
+}
+.card__image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  -webkit-filter: contrast(70%);
+  filter: contrast(70%);
+  overflow: hidden;
+  position: relative;
+  transition: -webkit-filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+  transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+  transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91),
+    -webkit-filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+}
+.card__image::before,
+.card__image1::before {
+  content: "";
+  display: block;
+  padding-top: 56.25%;
+}
+@media (min-width: 40rem) {
+  .card__image::before,
+  .card__image1::before {
+    padding-top: 66.6%;
+  }
+}
+.card__image--fence {
+  background-image: url("/img/home-card1.jpg");
+}
+.card__image--river {
+  background-image: url("/img/home-card2.jpg");
+}
+.card__image--record {
+  background-image: url("/img/home-card3.jpg");
+}
+
+.card__title {
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 1.44rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.card__text {
+  flex: 1 1 auto;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  text-align: justify;
+}
+
+/* **************** about Us****************** */
+.about{
+  padding-bottom: 100px;
+}
+.about-img {
+  height: 400px;
+  background-image: url("/img/home-about.jpg");
+  background-repeat: no-repeat;
+}
+
+.about-content {
+  height: 400px;
+  background: #fff3d3;
+}
+
+.tile {
+  width: 100%;
+  padding: 40px;
+}
+li.nav-item {
+  width: 25%;
+}
+#tile-1 .tab-pane {
+  padding: 15px;
+  height: 80px;
+}
+#tile-1 .nav-tabs {
+  position: relative;
+  border: none !important;
+  background-color: rgb(33 139 254 / 22%);
+  border-radius: 25px;
+  margin: 10px 0;
+}
+#tile-1 .nav-tabs li {
+  margin: 0px !important;
+}
+.pdd {
+  padding-top: 80px;
+}
+.pd-1 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #fff;
+}
+#tile-1 .nav-tabs li a {
+  position: relative;
+  margin-right: 0px !important;
+  padding: 10px 0px !important;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 78px;
+  border: none !important;
+  color: #333 !important;
+}
+#tile-1 .nav-tabs a:hover {
+  background-color: rgb(57, 120, 187) !important;
+  border: none;
+  color: white !important;
+}
+#tile-1 .slider {
+  display: inline-block;
+  width: 30px;
+  height: 45px;
+  border-radius: 37px;
+  background-color: rgb(57, 120, 187);
+  position: absolute;
+  bottom: 0;
+  transition: all 0.4s linear;
+}
+#tile-1 .nav-tabs .active {
+  background-color: inherit !important;
+  border: none !important;
+  color: #4938db !important;
+}
+.card1 {
+  background-color: transparent;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  overflow: hidden;
+}
+.card__image1 {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border-top-left-radius: 0.25rem; */
+  /* border-top-right-radius: 0.25rem; */
+  -webkit-filter: contrast(70%);
+  filter: contrast(70%);
+  border-radius: 50%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  transition: -webkit-filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+  -webkit-transition: -webkit-filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+  transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+  transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91),
+    -webkit-filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
 }
 
 
-.carousel-caption h1{
-    font-size:72px;
-    line-height: 82px;
-    font-weight: 700;
-    text-align: justify;
-    color: #ffffff;
-    text-transform: capitalize;
+
+
+/* why-choosse-us */
+.why-chooseus-part{
+  padding: 100px 0px;
+    background-color: #aeb7be1c;
+}
+.why-choosse-us h3 {
+  font-size: 42px;
+  text-transform: capitalize;
+  color: #222222;
+  font-weight: 700;
+  text-align: justify;
 }
 
-.carousel-caption p{
-text-align: justify;
+.why-choosse-us p {
+  text-align: justify;
+}
+
+.why-choosse-us ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.why-choosse-us ul li {
+  margin-bottom: 5px;
+}
+
+.why-choosse-us ul li  p {
+  font-size: 16px;
+  color: #222222;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.why-choosse-us ul li  p span {
+  margin-right: 10px;
+}
+
+
+.carousel-2-image{
+  border-radius: 20px;
 }

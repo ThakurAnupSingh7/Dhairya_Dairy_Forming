@@ -9,7 +9,7 @@
  background-color: white;
  position: fixed;
     top: 35px;
-    z-index: 1;
+    z-index: 999;
 }
 
 .navstyle ul{
@@ -23,6 +23,11 @@
 }
 .logo{
     margin-right: 5%;
+}
+
+.logo .logo-img{
+  width:120px;
+  height:90px;      
 }
 
 .navstyle ul li{

@@ -9,7 +9,7 @@ const Menu = () =>{
             
          <ul>
              <li className="space"></li>
-             <li className="logo"><img src = {process.env.PUBLIC_URL + "/img/logo.jpg"} alt="logo" width="120" height="90" /></li>
+             <li className="logo"><img src = {process.env.PUBLIC_URL + "/img/logo.jpg"} alt="logo" className="logo-img" /></li>
            <li> <Link to ="/"> Home </Link></li>  
            <li> <Link to ="about"> About Us </Link></li>
            <li> <Link to ="Services"> Services </Link></li> 

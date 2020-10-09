@@ -5,6 +5,7 @@ import Home from './Page/Home';
 import About from './Page/About';
 import ContactUs from './Page/ContactUs';
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import Footer from './Page/footer';
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
     
     </Switch>
     </div>
+    <br/>
+    <Footer></Footer>
     </BrowserRouter>
   );
 }
