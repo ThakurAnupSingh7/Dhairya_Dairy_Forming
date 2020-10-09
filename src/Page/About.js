@@ -5,6 +5,11 @@ const About = () =>{
     return(
         <div>
         <h1 >Welcome to about</h1>
+        <h1 >Welcome to about</h1>
+        <h1 >Welcome to about</h1>
+        <h1 >Welcome to about</h1>
+        <h1 >Welcome to about</h1>
+
         </div>
     )
 }
