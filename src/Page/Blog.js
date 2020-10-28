@@ -4,12 +4,12 @@ import {Link} from 'react-router-dom';
 
 const Blog = () => {
     return(
-        <div className="jumbotron">
+        <div>
 
           {/*.... Blog Front Image....*/}
           <div className="Blog-img">
           <img
-          src={process.env.PUBLIC_URL + "/img/BlogUp.jpg"}
+          src={process.env.PUBLIC_URL + "/img/Blog2.jpg"}
           className="img-about img-fluid"
           alt="image1"
           width="100%"
@@ -23,9 +23,7 @@ const Blog = () => {
           </div>
         </div>
       </div>
-     <br></br> <br></br>
-      <br></br> <br></br>
-      <br></br>
+      <br/>
 
     {/*......col-9 first Image part......*/}
       <div className="container-fluid jumbotron">
@@ -227,7 +225,7 @@ const Blog = () => {
             <div className="search">
               <input type="text" placeholder="Search here" 
                class="fa fa-search" />
-              <a><i class="fa fa-search"></i></a>
+              <div class="search-icon"><i class="fa fa-search"></i></div>
               </div>
             </div> <br></br><br></br>
 
@@ -381,7 +379,7 @@ const Blog = () => {
                   height="auto"
                   ></img>
                 <div className="card-body">
-                  <h4 className="card-title"></h4>
+                  <h4 className="card-title"> </h4>
                    <p className="devid">
                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
                     dolor laudantiuem totam rem aperiam, eaque ipsa quae 
@@ -431,23 +429,23 @@ const Blog = () => {
                <div className="sidebar-tag">
                 <ul>
                   <li>
-                   <a href="#">Agriculture</a></li>
+                   <div className="side-tag-name">Agriculture</div></li>
                   <li>
-                   <a href="#">Farm</a></li>
+                  <div className="side-tag-name">Farm</div></li>
                   <li>
-                   <a href="#">Organic</a></li>
+                  <div className="side-tag-name">Organic</div></li>
                   <li>
-                   <a href="#">Egg</a></li>
+                  <div className="side-tag-name">Egg</div></li>
                   <li>
-                   <a href="#">Permaculture</a></li>
+                  <div className="side-tag-name">Permaculture</div></li>
                   <li>
-                   <a href="#">Green</a></li>
+                  <div className="side-tag-name">Green</div></li>
                   <li>
-                   <a href="#">Garden</a></li>
+                  <div className="side-tag-name">Garden</div></li>
                   <li>
-                   <a href="#">Milk</a></li>
+                  <div className="side-tag-name">Milk</div></li>
                   <li>
-                   <a href="#">Dairy Farm</a></li>  
+                  <div className="side-tag-name">Dairy Farm</div></li>  
                 </ul>
               </div>
              </div>
@@ -456,29 +454,7 @@ const Blog = () => {
     </div>
       </div>  
     
-        {/*........pagination.......*/}
-        <div className="container">
-           <div className="col-lg-6 col-md-6 col-6">
-             <ul className="pagination pagination-lg">
-               <li className="page-item">
-                <a href="#" className="page-link"> Prev </a></li>
-                <li className="page-item">
-                <a href="#" className="page-link"> 01 </a></li>
-                <li className="page-item">
-                <a href="#" className="page-link"> 02 </a></li>
-                <li className="page-item">
-                <a href="#" className="page-link"> ... </a></li>
-                <li className="page-item">
-                <a href="#" className="page-link"> 12 </a></li>
-                <li className="page-item">
-                <a href="#" className="page-link"> 13 </a></li>
-                <li className="page-item">
-                <a href="#" className="page-link"> Next </a></li>
-             </ul>
-           </div>
-       </div>
-       <br></br><br></br>
-
+      
     </div>
     )
 }
