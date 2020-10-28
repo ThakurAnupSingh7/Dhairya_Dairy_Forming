@@ -1,5 +1,9 @@
+.badge-primary{
+    margin-top: -7px;
+    padding: 1em .4em 0em !important;
+}
+
 .img-line {
-    margin-top: -20px;
     vertical-align: middle;
     border-style: none;
 } 
@@ -38,7 +42,7 @@ h3{
     font-size: inherit;
 }
 
-.search a{
+.search .search-icon{
  position: absolute;
  top: 50%;
  right: 30px;
@@ -87,7 +91,7 @@ li {
 
 .link-para {
     background-color: #fdfdfdfd;
-    padding: 0 0;
+    padding: 35px;
     border-radius: 0px 0px 0px 0px;
 }
 
@@ -101,6 +105,12 @@ li {
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.2;
 } 
+
+.link-para p{
+    font-size: 0.875rem;
+    line-height: 2.0;
+    text-align: justify;
+}
 
 .blog-user {
     display: flex;
@@ -189,7 +199,7 @@ a {
     margin-bottom: 20px;
     margin-right: 5px;
 }
-.sidebar-tag ul li a {
+.sidebar-tag ul li .side-tag-name {
     border: 1px solid #ffffff;
     border-radius: 5px;
     padding: 5px 13px;

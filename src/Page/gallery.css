@@ -1,0 +1,24 @@
+
+
+.gallery-heading{
+ background: aliceblue;
+}
+
+.gallery-heading h2{
+    margin: .45rem 0 .45rem;
+    color: rgb(0, 0, 0);
+    font-family: "Libre Baskerville", serif;
+    font-size: 3.4em;
+    line-height: 1.25em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.img-gallery{
+    height:300px;
+}
+
+.gallery-body{
+    height:470px;
+}
+
