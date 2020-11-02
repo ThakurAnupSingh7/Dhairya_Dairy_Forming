@@ -9,11 +9,10 @@ const Blog = () => {
           {/*.... Blog Front Image....*/}
           <div className="Blog-img">
           <img
-          src={process.env.PUBLIC_URL + "/img/Blog2.jpg"}
-          className="img-about img-fluid"
+          src={process.env.PUBLIC_URL + "/img/Blog1.jpeg"}
+          className="img-blog-top img-fluid"
           alt="image1"
           width="100%"
-          height="auto"
          ></img>
          <div className="onimg-text text-center text-primary">
           <h2>Blog Category</h2>
@@ -28,7 +27,7 @@ const Blog = () => {
     {/*......col-9 first Image part......*/}
       <div className="container-fluid jumbotron">
         <div className="row">
-          <div className="col-lg-9 col-md-9 col-9">
+          <div className="col-lg-9 col-md-9 col-12">
            <div>
             <img
             src={process.env.PUBLIC_URL + "/img/AboutMain.jpg"}
@@ -211,7 +210,7 @@ const Blog = () => {
       {/*................col-3 part..............*/}
 
        {/*.....Search.....*/}    
-      <div className="col-lg-3 col-md-3 col-3">
+      <div className="col-lg-3 col-md-3 col-12">
           <div>
             <h3>Search</h3>
             <img

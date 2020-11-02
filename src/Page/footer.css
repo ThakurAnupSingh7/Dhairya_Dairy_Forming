@@ -43,5 +43,14 @@ footer.page-footer .footer-copyright {
 }
 
 
+@media screen and (max-width: 600px) {
+  .brand {
+    padding: 0px 0px;
+}
+.brand img {
+    margin: 0 -3px;
+}
+}
+
 
 

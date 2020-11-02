@@ -3,6 +3,11 @@
   padding: 0px;
 }
 
+.img-about{
+  object-fit: cover;
+  height: auto;
+}
+
 .onimg-text{
   margin-top: -70px;
 }
@@ -116,4 +121,32 @@
   text-align: center;
   color: blue;
   font-weight: 600;
+}
+
+
+@media screen and (max-width: 600px) {
+  .img-about{
+    object-fit: cover;
+    height: 400px;
+  }
+  .welcome-our-dairy h1 {
+    font-size: 25px;
+  }
+
+  .about-our-dairy-form h1 {
+    font-size: 25px;
+    margin-top: 16px;
+  }
+
+  .why-choose-us h1 {
+    font-size: 25px;
+  }
+
+  .our-team h1 {
+    font-size: 25px;
+  }
+
+  .our-team .para {
+    padding: 15px 5%;
+}
 }

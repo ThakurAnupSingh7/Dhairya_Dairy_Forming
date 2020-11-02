@@ -245,6 +245,7 @@ img {
   height: 400px;
   background-image: url("/img/home-about.jpg");
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .about-content {
@@ -383,4 +384,55 @@ li.nav-item {
 
 .carousel-2-image{
   border-radius: 20px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+   .carousel-img {
+    filter: brightness(30%);
+    opacity: 0.9;
+    height: 400px;
+  }
+  .carousel-caption h1 {
+    font-size: 25px;
+    line-height: 30px;
+   
+}
+
+.carousel-caption p {
+  text-align: justify;
+  font-size: 10px;
+}
+
+.main-2 {
+  margin-top: 5.65rem;
+}
+
+.Main-text h2 {
+  font-size: 25px;
+}
+
+#tile-1 .nav-tabs li a {
+  font-size: 10px;
+}
+
+.tile {
+  width: 100%;
+  padding: unset;
+}
+#tile-1 .slider {
+  width: 0px;
+}
+#tile-1 .tab-pane {
+  padding: 0px;
+}
+.why-chooseus-part {
+  padding: 30px 0px;
+}
+
+.why-choosse-us h3 {
+  font-size: 25px;
+}
+
 }

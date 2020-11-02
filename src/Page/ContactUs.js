@@ -7,7 +7,7 @@ const ContactUs = () => {
       <img
         src={process.env.PUBLIC_URL + "/img/contactus2.png"}
         alt="line"
-        className="line"
+        className="contact-top"
         width="auto"
       />
 
