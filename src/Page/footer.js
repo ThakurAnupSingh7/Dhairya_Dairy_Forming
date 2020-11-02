@@ -111,7 +111,7 @@ const Footer = () => {
         <Link to ="about" className="useful-links"> About Us </Link>
         </p>
            <p>
-           <Link to ="Services" className="useful-links"> Services </Link>
+           <Link to ="Blog" className="useful-links"> Blog </Link>
         </p>
         <p>
         <Link to ="Gallery" className="useful-links"> Gallery </Link>

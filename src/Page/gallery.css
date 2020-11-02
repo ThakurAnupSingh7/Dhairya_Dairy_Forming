@@ -1,4 +1,7 @@
-
+.img-gallery-top{
+    object-fit: cover;
+    height: 500px;
+}
 
 .gallery-heading{
  background: aliceblue;
@@ -22,3 +25,25 @@
     height:470px;
 }
 
+
+
+@media screen and (max-width: 600px) {
+    .img-gallery-top {
+        object-fit:unset;
+        height: 400px;
+    
+    }
+
+    .gallery-heading h2 {
+        font-size: 25px;
+    }
+
+    .img-gallery {
+        height: 200px;
+    }
+
+    .gallery-body {
+        height: 300px;
+    }
+   
+  }

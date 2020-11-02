@@ -1,3 +1,8 @@
+.contact-top {
+  object-fit: cover;
+}
+
+
 .pb-100 {
   padding-bottom: 100px;
 }
@@ -124,4 +129,11 @@ textarea {
 .contact-form input:focus,
 textarea:focus {
   border-color: #cc5b00;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-top {
+    height: 400px;
+    object-fit: cover;
+  }
 }

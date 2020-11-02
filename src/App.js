@@ -8,11 +8,15 @@ import Gallery from './Page/gallery';
 import ContactUs from './Page/ContactUs';
 import {BrowserRouter, Route, Switch,} from 'react-router-dom';
 import Footer from './Page/footer';
+import App1 from './Page/ScrolledNavBar';
+
+import ScrollToTop from './Page/ScrolledToTop'
 
 
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop />
     <div>
     <Menu></Menu> 
 
@@ -26,6 +30,7 @@ function App() {
     </div>
     <br/>
     <Footer></Footer>
+    <App1/>
     </BrowserRouter>
   );
 }

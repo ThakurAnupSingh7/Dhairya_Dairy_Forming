@@ -1,15 +1,15 @@
 import React from 'react';
-import './Menu.css';
+import './ScrolledMenu.css';
 import { Link } from 'react-router-dom'
 
-const Menu = () =>{
+const ScrolledMenu = () =>{
     return(
         <div>
-            <nav className="navstyle">
+            <nav className="navstyle-scroll">
             
          <ul>
-             <li className="space"></li>
-             <li className="logo"><img src = {process.env.PUBLIC_URL + "/img/logo.jpg"} alt="logo" className="logo-img" /></li>
+             <li className="space-scroll"></li>
+             <li className="logo-scroll"><img src = {process.env.PUBLIC_URL + "/img/logo.jpg"} alt="logo" className="logo-img" /></li>
            <li> <Link to ="/"> Home </Link></li>  
            <li> <Link to ="about"> About Us </Link></li>
            {/* <li> <Link to ="Services"> Services </Link></li>  */}
@@ -23,7 +23,7 @@ const Menu = () =>{
            <li className="icon"><i class="fa fa-shopping-bag"></i></li>
            <li></li>
            <li></li>
-           <li ><Link to ="contactus"><span class="appointment_btn">appointment</span></Link></li>
+           <li ><Link to ="contactus"><span class="appointment_btn-scroll">appointment</span></Link></li>
 
              </ul>
 
@@ -32,4 +32,4 @@ const Menu = () =>{
     );
 }
 
-export default Menu;
+export default ScrolledMenu;

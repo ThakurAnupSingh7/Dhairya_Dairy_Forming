@@ -350,12 +350,14 @@ const Home = () => {
                 width="auto"
               />
              
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-     temporcididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-     , quis nostrud exercitatiamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+  <p>Dhaira Dairy sources a significant part of its requirement of liquid milk from dairy
+     cooperatives and village level farmer centric organization. The farm is committed to
+      uphold institutional structure that empower milk producers and farmers through
+       processes that are equitable. </p>
 
-<p>Duis aute irure dolor in repreheenderit in voluptate velit esse cillum dolore  
-  fugiat nulla pariatur. Excepteur sint occaecaeeiat cupidatat</p>
+<p>Trust, Purity and Taste are the hallmarks of Dairya Dairy Farm. Dairya brings happiness 
+  to every individual witn its range offering pure, hygienic and adulteration-free high quality
+   products which has been the strength, differentiator and heritage of the brand over years.</p>
 
   <ul>
 							<li>

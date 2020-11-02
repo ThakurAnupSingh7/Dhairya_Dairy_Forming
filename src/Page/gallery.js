@@ -6,10 +6,8 @@ const Gallery = () => {
         <div>
      <img
           src={process.env.PUBLIC_URL + "/img/gallery1.jpg"}
-          className="img-about img-fluid"
-          alt="image1"
-          width="100%"
-          height="auto"
+          className="img-gallery-top img-fluid"
+          alt="image1" width="100%"
          ></img> 
 
    <br/><br/>
