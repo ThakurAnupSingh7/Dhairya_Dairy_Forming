@@ -169,7 +169,7 @@ const About = () => {
                   className="img-fluid rounded"
                   alt="image2"
                 ></img>
-                <h5 className="card-name">James Rayan</h5>
+                <h5 className="card-name">James </h5>
                 <p className="card-ocupation">Dairy Former</p>
               </div>
             </div>
@@ -181,7 +181,7 @@ const About = () => {
                   className="img-fluid rounded"
                   alt="image2"
                 ></img>
-                <h5 className="card-name">Jacob Robert</h5>
+                <h5 className="card-name">Jacob</h5>
                 <p className="card-ocupation">Dairy Former</p>
               </div>
             </div>
